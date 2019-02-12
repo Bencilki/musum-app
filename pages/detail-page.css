@@ -42,11 +42,12 @@ h2 , h3 {
     margin-inline-start: 1rem;
 }
   .button{
-      display: grid;
-      max-width: 6rem;
-      grid-template: 1rem 1rem 1rem 1rem;
-      margin: auto;
-      margin-top: 2rem;
+    display: grid;
+    grid-template: 1rem 1rem 1rem 1rem; 
+    max-width: 6rem;
+    margin: auto;
+    margin-top: 2rem;
+     
   }
   footer {
       margin: 3rem;
