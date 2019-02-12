@@ -1,6 +1,6 @@
 body {
     background: #C5E9FE;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 30px', serif;
     text-align: center;
     margin: 0;
     padding: 2rem 0;
@@ -17,3 +17,15 @@ main {
 h1 {
     margin: 2rem 1rem 6rem 1rem;
 }
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem;
+  }
+  footer {
+      margin: 3rem;
+  }
+ 
+    
