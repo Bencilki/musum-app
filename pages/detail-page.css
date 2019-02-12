@@ -1,0 +1,44 @@
+body {
+    background: #C5E9FE;
+    font-family: 'Slabo 30px', serif;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0;
+    width: 100%;
+
+}
+main {
+    background: #C5FEF7;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3rem 0 6rem 0;
+  }
+h2 , h3 {
+    margin: 2rem 1rem 1rem 1rem;
+}
+#content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem;
+  }
+  .formSection {
+    margin-left: 2rem;
+    text-align: left;
+  }
+  .button{
+      display: grid;
+      width: 100px;
+      grid-template: 80px 80px 80px 80px;
+      margin: auto;
+
+
+      
+  }
+  footer {
+      margin: 3rem;
+  }
+ 
+    
