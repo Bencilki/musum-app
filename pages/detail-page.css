@@ -28,14 +28,25 @@ h2 , h3 {
     margin-left: 2rem;
     text-align: left;
   }
+#msg {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-block-start: 1rem;
+    margin-inline-start: 0.5rem;
+}
+#name {
+    display: inline-block;
+    width: 100px;
+    margin-block-start: 1rem;
+    margin-inline-start: 1rem;
+}
   .button{
       display: grid;
-      width: 100px;
+      max-width: 100px;
       grid-template: 80px 80px 80px 80px;
       margin: auto;
-
-
-      
+      margin-top: 2rem;
   }
   footer {
       margin: 3rem;
