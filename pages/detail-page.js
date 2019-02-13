@@ -3,7 +3,11 @@ function submitComment () {
     const name = inputField.value;
     const textArea = document.getElementById('msg');
     const msg = textArea.value;
-    
+
+    if (doesNotPassAllValidations(name , msg)){
+        return null
+    }
+
     const comment = document.createElement('section');
     const h3 = document.createElement('h3');
     const p = document.createElement('p');
@@ -20,9 +24,6 @@ function submitComment () {
     inputField.value = null
     textArea.value = null
    
-    if (doesNotPassAllValidations(name , msg)){
-       return null
-   }
 }
 
 function doesNotPassAllValidations (name , msg) {
